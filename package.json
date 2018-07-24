@@ -1,0 +1,27 @@
+{
+  "name": "vue-preflight",
+  "version": "0.0.1",
+  "description": "Vue.js plugin for route preflight actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kronicker/vue-preflight.git"
+  },
+  "keywords": [
+    "vue",
+    "vuex",
+    "progress",
+    "router",
+    "loader",
+    "preflight"
+  ],
+  "author": "kronicker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kronicker/vue-preflight/issues"
+  },
+  "homepage": "https://github.com/kronicker/vue-preflight#readme"
+}
