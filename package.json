@@ -1,6 +1,6 @@
 {
   "name": "vue-preflight",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Vue.js plugin for route preflight actions",
   "main": "dist/vue-preflight.min.js",
   "module": "dist/vue-preflight.es.js",
