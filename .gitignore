@@ -1,0 +1,16 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build artifacts
+dist/*
+!dist/.gitkeep
+
+# Dependency directories
+node_modules/
+
+# Local config files
+.DS_Store
+.vscode
+config/local*.*

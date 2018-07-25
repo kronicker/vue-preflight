@@ -23,5 +23,16 @@
   "bugs": {
     "url": "https://github.com/kronicker/vue-preflight/issues"
   },
-  "homepage": "https://github.com/kronicker/vue-preflight#readme"
+  "homepage": "https://github.com/kronicker/vue-preflight#readme",
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  },
+  "dependencies": {
+    "vue-progressbar": "^0.7.5"
+  }
 }
