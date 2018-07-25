@@ -2,9 +2,12 @@
   "name": "vue-preflight",
   "version": "0.0.1",
   "description": "Vue.js plugin for route preflight actions",
-  "main": "index.js",
+  "main": "dist/vue-preflight.min.js",
+  "module": "dist/vue-preflight.es.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run clean:dist && bili",
+    "clean:dist": "del-cli dist/* !dist/.gitkeep",
+    "release": "npm run clean:dist && npm run build && np"
   },
   "repository": {
     "type": "git",
@@ -18,19 +21,26 @@
     "loader",
     "preflight"
   ],
-  "author": "kronicker",
+  "author": {
+    "name": "Toma Zelic",
+    "email": "zelic.toma@gmail.com",
+    "url": "https://github.com/kronicker"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kronicker/vue-preflight/issues"
   },
   "homepage": "https://github.com/kronicker/vue-preflight#readme",
   "devDependencies": {
+    "bili": "^3.1.2",
+    "del-cli": "^1.1.0",
     "eslint": "^5.2.0",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-standard": "^3.1.0"
+    "eslint-plugin-standard": "^3.1.0",
+    "np": "^3.0.4"
   },
   "dependencies": {
     "vue-progressbar": "^0.7.5"
