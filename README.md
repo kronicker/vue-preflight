@@ -1,6 +1,6 @@
 <p align="center">
   <a href="#">
-    <img width="150"src="./docs/logo.svg">
+    <img width="150"src="https://raw.githubusercontent.com/kronicker/vue-preflight/master/docs/logo.png">
   </a>
 </p>
 
